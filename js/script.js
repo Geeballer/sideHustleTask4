@@ -12,7 +12,7 @@ document.getElementById("yellow").addEventListener("click", function(){
     var blue =  document.querySelector(".info");
  document.getElementById("blue").addEventListener("click", function(){
       
-     blu.style.backgroundColor = "blue";
+     blu.style.backgroundColor = "#0392BF";
      
  })
 
@@ -20,14 +20,14 @@ document.getElementById("yellow").addEventListener("click", function(){
     var pink =  document.querySelector(".info");
  document.getElementById("pink").addEventListener("click", function(){
       
-     pin.style.backgroundColor = "pink";
+     pin.style.backgroundColor = "#ED48BA";
  })
 
  var gra =  document.querySelector(".speedyQuadsView");
     var gray =  document.querySelector(".info");
  document.getElementById("gray").addEventListener("click", function(){
       
-     gra.style.backgroundColor = "gray";
+     gra.style.backgroundColor = "#B3D4E0";
  })
  
  /*   
