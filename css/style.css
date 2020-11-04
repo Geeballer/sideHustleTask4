@@ -59,8 +59,8 @@ body{
 }
 
 .sideNav .sideNavItem a img{
-    width: 1.8rem;
-    height: 1.8rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .fbIcon img{
@@ -111,7 +111,7 @@ body{
         justify-content: space-between;
         width: 20%;
         height: 4rem;
-        margin-right: 5rem;
+        margin: 1rem 5rem 0 0;
     }
 
     .sideNav .sideNavItem a img{
@@ -198,7 +198,7 @@ body{
         justify-content: space-between;
         width: 20%;
         height: 4rem;
-        margin-right: 5rem;
+        margin: 1rem 5rem 0 0;
     }
 
     .sideNav .sideNavItem a img{
@@ -377,11 +377,12 @@ body{
         justify-content: space-between;
         width: 100%;
         height: 10rem;
+        margin-bottom: 1rem;
     }
 
     .sideNav .sideNavItem a img{
-        width: 2.3rem;
-        height: 2.3rem;
+        width: 2rem;
+        height: 2rem;
         margin: 0 0;
     }
 
@@ -546,17 +547,17 @@ span{
     .text h2{
         margin-top: 3rem;
         margin-bottom: 50rem;
-        font-size: 2.5rem;
+        font-size: 3rem;
 
     }
 
     h2 .moveToRight{
-        top: 70%;
-        left: 26%;
+        top: 60;
+        left: 24%;
     }
 
     h2 .moveToLeft{
-        top: 75%;
+        top: 70%;
         left: 33%;
     }
 
@@ -652,17 +653,17 @@ span{
     .text h2{
         margin-top: 3rem;
         margin-bottom: 50rem;
-        font-size: 2.5rem;
+        font-size: 3.5rem;
 
     }
 
     h2 .moveToRight{
-        top: 67%;
-        left: 26%;
+        top: 60%;
+        left: 23%;
     }
 
     h2 .moveToLeft{
-        top: 72%;
+        top: 66%;
         left: 33%;
     }
 
@@ -847,10 +848,6 @@ span{
     cursor: pointer;
 }
 
-.blue:active, .btn:focus{
-    border: 3px solid #fff;
-}
-
 .pink{
     width: 2.5rem;
     height: 2.5rem;
@@ -940,9 +937,10 @@ span{
 .btn:hover{
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    color: #fff;
 }
 
-.btn:active, .btn:active{
+.btn:active{
     transform: translateY(-1px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
