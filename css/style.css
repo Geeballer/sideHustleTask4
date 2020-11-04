@@ -813,7 +813,7 @@ span{
     margin-bottom: .5rem;
 }
 
-.info p a .read:link{
+.info p a{
     text-decoration: none;
     border-bottom: 1px solid #fff;
     color: #fff;   
