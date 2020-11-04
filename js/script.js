@@ -4,7 +4,12 @@
 document.getElementById("yellow").addEventListener("click", function(){
      
     yel.style.backgroundColor = "#FBEC06";
-    document.getElementsByTagName("p","h2").style.color = "black";
+
+    var x = document.querySelectorAll("p, h2, a, .colorTitle, .selectTitle");
+    var i;
+    for (i = 0; i < x.length; i++) {
+    x[i].style.color = "black";
+    }
 })
     
 
@@ -13,6 +18,12 @@ document.getElementById("yellow").addEventListener("click", function(){
  document.getElementById("blue").addEventListener("click", function(){
       
      blu.style.backgroundColor = "#0392BF";
+
+     var x = document.querySelectorAll("p, h2, a, .colorTitle, .selectTitle");
+    var i;
+    for (i = 0; i < x.length; i++) {
+    x[i].style.color = "#B3D4E0";
+    }
      
  })
 
@@ -21,6 +32,13 @@ document.getElementById("yellow").addEventListener("click", function(){
  document.getElementById("pink").addEventListener("click", function(){
       
      pin.style.backgroundColor = "#ED48BA";
+
+     var x = document.querySelectorAll("p, h2, a, .colorTitle, .selectTitle");
+    var i;
+    for (i = 0; i < x.length; i++) {
+    x[i].style.color = "white";
+    }
+
  })
 
  var gra =  document.querySelector(".speedyQuadsView");
@@ -28,6 +46,12 @@ document.getElementById("yellow").addEventListener("click", function(){
  document.getElementById("gray").addEventListener("click", function(){
       
      gra.style.backgroundColor = "#B3D4E0";
+
+     var x = document.querySelectorAll("p, h2, a, .colorTitle, .selectTitle");
+    var i;
+    for (i = 0; i < x.length; i++) {
+    x[i].style.color = "black";
+    }
  })
  
  /*   

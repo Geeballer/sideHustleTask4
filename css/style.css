@@ -475,7 +475,7 @@ body{
 .imageAndText{
     flex: 1;
     height: 100%;
-    width: 100%;
+    width: 130%;
     position: relative;
 }
 /* skate */
@@ -485,7 +485,7 @@ body{
     background-image: url(../img/skate.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 130%;
+    background-size: 110%;
     position: absolute;
     top: -18%;
     left: 15%;
@@ -501,8 +501,8 @@ body{
 
 h2 .moveToRight{
     position: absolute;
-    top: 60%;
-    left: 23%;
+    top: 63%;
+    left: 25%;
     animation: moveInLeft 1s ease-out; 
 }
 
@@ -814,8 +814,8 @@ span{
 }
 
 .info p a{
-    text-decoration: none;
-    border-bottom: 1px solid #fff;
+    text-decoration: underline;
+    /* border-bottom: 1px solid #fff; */
     color: #fff;   
 }
 
